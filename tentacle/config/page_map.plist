@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>sign_nav</key>
+	<string>TTSignNavigationController</string>
+	<key>sign</key>
+	<string>TTSignViewController</string>
+	<key>home_tab</key>
+	<string>TTHomeViewController</string>
+	<key>session_nav</key>
+	<string>TTSessionNavigationController</string>
+	<key>session</key>
+	<string>TTSessionViewController</string>
+	<key>friend_nav</key>
+	<string>TTFriendNavigationController</string>
+	<key>friend</key>
+	<string>TTFriendViewController</string>
+	<key>setting_nav</key>
+	<string>TTSettingNavigationController</string>
+	<key>setting</key>
+	<string>TTSettingViewController</string>
+	<key>chat</key>
+	<string>TTChatViewController</string>
+	<key>person</key>
+	<string>TTPersonViewController</string>
+</dict>
+</plist>

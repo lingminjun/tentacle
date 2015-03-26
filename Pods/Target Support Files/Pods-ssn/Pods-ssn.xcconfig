@@ -1,0 +1,1 @@
+PODS_SSN_OTHER_LDFLAGS = -l"sqlite3" -l"stdc++" -l"z" -framework "CoreGraphics" -framework "Foundation" -framework "UIKit"

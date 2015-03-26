@@ -1,0 +1,1 @@
+../../../ssn/ssn/ssn/ui/table/SSNTableViewConfigureProtocol.h

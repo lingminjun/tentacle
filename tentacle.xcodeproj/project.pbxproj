@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03B2B0641AA91DFC05E60AFF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A420F08D7B40584C4B1F7158 /* libPods.a */; };
+		539B4E841AC3F1060042F6C4 /* page_map.plist in Resources */ = {isa = PBXBuildFile; fileRef = 539B4E831AC3F1060042F6C4 /* page_map.plist */; };
+		539B4FA91AC413870042F6C4 /* TTSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 539B4FA81AC413870042F6C4 /* TTSignViewController.m */; };
+		539B4FAC1AC413DD0042F6C4 /* TTSignNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 539B4FAB1AC413DD0042F6C4 /* TTSignNavigationController.m */; };
+		539B4FB01AC414170042F6C4 /* TTSettingNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 539B4FAF1AC414170042F6C4 /* TTSettingNavigationController.m */; };
+		539B4FB31AC414350042F6C4 /* TTSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 539B4FB21AC414350042F6C4 /* TTSettingViewController.m */; };
+		539B4FB61AC414490042F6C4 /* TTSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 539B4FB51AC414490042F6C4 /* TTSessionViewController.m */; };
+		539B4FB91AC4146C0042F6C4 /* TTFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 539B4FB81AC4146C0042F6C4 /* TTFriendViewController.m */; };
+		539B4FBC1AC414790042F6C4 /* TTChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 539B4FBB1AC414790042F6C4 /* TTChatViewController.m */; };
+		539B4FBF1AC414980042F6C4 /* TTFriendNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 539B4FBE1AC414980042F6C4 /* TTFriendNavigationController.m */; };
+		539B4FC21AC414B00042F6C4 /* TTSessionNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 539B4FC11AC414B00042F6C4 /* TTSessionNavigationController.m */; };
+		539B4FC61AC4153F0042F6C4 /* TTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 539B4FC51AC4153F0042F6C4 /* TTHomeViewController.m */; };
+		539B4FC91AC416CA0042F6C4 /* TTPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 539B4FC81AC416CA0042F6C4 /* TTPersonViewController.m */; };
+		539B4FD11AC418BC0042F6C4 /* TTUserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 539B4FD01AC418BC0042F6C4 /* TTUserCenter.m */; };
+		539B4FD71AC4441F0042F6C4 /* SSNRouter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 539B4FD61AC4441F0042F6C4 /* SSNRouter+Category.m */; };
 		53FC6E371AC39FFF0027622A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FC6E361AC39FFF0027622A /* main.m */; };
 		53FC6E3A1AC39FFF0027622A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FC6E391AC39FFF0027622A /* AppDelegate.m */; };
-		53FC6E3D1AC39FFF0027622A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FC6E3C1AC39FFF0027622A /* ViewController.m */; };
-		53FC6E401AC39FFF0027622A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53FC6E3E1AC39FFF0027622A /* Main.storyboard */; };
 		53FC6E421AC39FFF0027622A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53FC6E411AC39FFF0027622A /* Images.xcassets */; };
-		53FC6E451AC39FFF0027622A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53FC6E431AC39FFF0027622A /* LaunchScreen.xib */; };
 		53FC6E511AC39FFF0027622A /* tentacleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FC6E501AC39FFF0027622A /* tentacleTests.m */; };
+		6E2D207140DAA59895B1890E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A420F08D7B40584C4B1F7158 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +40,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		539B4E831AC3F1060042F6C4 /* page_map.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = page_map.plist; sourceTree = "<group>"; };
+		539B4FA71AC413870042F6C4 /* TTSignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSignViewController.h; sourceTree = "<group>"; };
+		539B4FA81AC413870042F6C4 /* TTSignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSignViewController.m; sourceTree = "<group>"; };
+		539B4FAA1AC413DD0042F6C4 /* TTSignNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSignNavigationController.h; sourceTree = "<group>"; };
+		539B4FAB1AC413DD0042F6C4 /* TTSignNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSignNavigationController.m; sourceTree = "<group>"; };
+		539B4FAE1AC414170042F6C4 /* TTSettingNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSettingNavigationController.h; sourceTree = "<group>"; };
+		539B4FAF1AC414170042F6C4 /* TTSettingNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSettingNavigationController.m; sourceTree = "<group>"; };
+		539B4FB11AC414350042F6C4 /* TTSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSettingViewController.h; sourceTree = "<group>"; };
+		539B4FB21AC414350042F6C4 /* TTSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSettingViewController.m; sourceTree = "<group>"; };
+		539B4FB41AC414490042F6C4 /* TTSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSessionViewController.h; sourceTree = "<group>"; };
+		539B4FB51AC414490042F6C4 /* TTSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSessionViewController.m; sourceTree = "<group>"; };
+		539B4FB71AC4146C0042F6C4 /* TTFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFriendViewController.h; sourceTree = "<group>"; };
+		539B4FB81AC4146C0042F6C4 /* TTFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFriendViewController.m; sourceTree = "<group>"; };
+		539B4FBA1AC414790042F6C4 /* TTChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTChatViewController.h; sourceTree = "<group>"; };
+		539B4FBB1AC414790042F6C4 /* TTChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTChatViewController.m; sourceTree = "<group>"; };
+		539B4FBD1AC414980042F6C4 /* TTFriendNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFriendNavigationController.h; sourceTree = "<group>"; };
+		539B4FBE1AC414980042F6C4 /* TTFriendNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFriendNavigationController.m; sourceTree = "<group>"; };
+		539B4FC01AC414B00042F6C4 /* TTSessionNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSessionNavigationController.h; sourceTree = "<group>"; };
+		539B4FC11AC414B00042F6C4 /* TTSessionNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSessionNavigationController.m; sourceTree = "<group>"; };
+		539B4FC41AC4153F0042F6C4 /* TTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHomeViewController.h; sourceTree = "<group>"; };
+		539B4FC51AC4153F0042F6C4 /* TTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTHomeViewController.m; sourceTree = "<group>"; };
+		539B4FC71AC416CA0042F6C4 /* TTPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPersonViewController.h; sourceTree = "<group>"; };
+		539B4FC81AC416CA0042F6C4 /* TTPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPersonViewController.m; sourceTree = "<group>"; };
+		539B4FCF1AC418BC0042F6C4 /* TTUserCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUserCenter.h; sourceTree = "<group>"; };
+		539B4FD01AC418BC0042F6C4 /* TTUserCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUserCenter.m; sourceTree = "<group>"; };
+		539B4FD51AC4441F0042F6C4 /* SSNRouter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSNRouter+Category.h"; sourceTree = "<group>"; };
+		539B4FD61AC4441F0042F6C4 /* SSNRouter+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSNRouter+Category.m"; sourceTree = "<group>"; };
+		539B4FD91AC44A810042F6C4 /* tentacle-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "tentacle-Prefix.pch"; sourceTree = "<group>"; };
 		53FC6E311AC39FFF0027622A /* tentacle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tentacle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53FC6E351AC39FFF0027622A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53FC6E361AC39FFF0027622A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		53FC6E381AC39FFF0027622A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		53FC6E391AC39FFF0027622A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		53FC6E3B1AC39FFF0027622A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		53FC6E3C1AC39FFF0027622A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		53FC6E3F1AC39FFF0027622A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53FC6E411AC39FFF0027622A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		53FC6E441AC39FFF0027622A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		53FC6E4A1AC39FFF0027622A /* tentacleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tentacleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53FC6E4F1AC39FFF0027622A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53FC6E501AC39FFF0027622A /* tentacleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tentacleTests.m; sourceTree = "<group>"; };
+		9DF9D8DACA8907865183BBE6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A420F08D7B40584C4B1F7158 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38EA1EDAF63E00FE2BDE930 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E2D207140DAA59895B1890E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +95,133 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03B2B0641AA91DFC05E60AFF /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		413DABB4EEDC81593652A4FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A420F08D7B40584C4B1F7158 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		539B4E821AC3F0E30042F6C4 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				539B4E831AC3F1060042F6C4 /* page_map.plist */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		539B4E851AC3F2310042F6C4 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				539B4FC31AC415190042F6C4 /* home */,
+				539B4FAD1AC413FA0042F6C4 /* chat */,
+				539B4E861AC3F2D10042F6C4 /* friend */,
+				539B4E871AC3F2D10042F6C4 /* session */,
+				539B4E881AC3F2D10042F6C4 /* setting */,
+				539B4E891AC3F2D10042F6C4 /* sign */,
+				539B4FD51AC4441F0042F6C4 /* SSNRouter+Category.h */,
+				539B4FD61AC4441F0042F6C4 /* SSNRouter+Category.m */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		539B4E861AC3F2D10042F6C4 /* friend */ = {
+			isa = PBXGroup;
+			children = (
+				539B4FB71AC4146C0042F6C4 /* TTFriendViewController.h */,
+				539B4FB81AC4146C0042F6C4 /* TTFriendViewController.m */,
+				539B4FBD1AC414980042F6C4 /* TTFriendNavigationController.h */,
+				539B4FBE1AC414980042F6C4 /* TTFriendNavigationController.m */,
+				539B4FC71AC416CA0042F6C4 /* TTPersonViewController.h */,
+				539B4FC81AC416CA0042F6C4 /* TTPersonViewController.m */,
+			);
+			path = friend;
+			sourceTree = "<group>";
+		};
+		539B4E871AC3F2D10042F6C4 /* session */ = {
+			isa = PBXGroup;
+			children = (
+				539B4FB41AC414490042F6C4 /* TTSessionViewController.h */,
+				539B4FB51AC414490042F6C4 /* TTSessionViewController.m */,
+				539B4FC01AC414B00042F6C4 /* TTSessionNavigationController.h */,
+				539B4FC11AC414B00042F6C4 /* TTSessionNavigationController.m */,
+			);
+			path = session;
+			sourceTree = "<group>";
+		};
+		539B4E881AC3F2D10042F6C4 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				539B4FAE1AC414170042F6C4 /* TTSettingNavigationController.h */,
+				539B4FAF1AC414170042F6C4 /* TTSettingNavigationController.m */,
+				539B4FB11AC414350042F6C4 /* TTSettingViewController.h */,
+				539B4FB21AC414350042F6C4 /* TTSettingViewController.m */,
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
+		539B4E891AC3F2D10042F6C4 /* sign */ = {
+			isa = PBXGroup;
+			children = (
+				539B4FA71AC413870042F6C4 /* TTSignViewController.h */,
+				539B4FA81AC413870042F6C4 /* TTSignViewController.m */,
+				539B4FAA1AC413DD0042F6C4 /* TTSignNavigationController.h */,
+				539B4FAB1AC413DD0042F6C4 /* TTSignNavigationController.m */,
+			);
+			path = sign;
+			sourceTree = "<group>";
+		};
+		539B4FAD1AC413FA0042F6C4 /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				539B4FBA1AC414790042F6C4 /* TTChatViewController.h */,
+				539B4FBB1AC414790042F6C4 /* TTChatViewController.m */,
+			);
+			path = chat;
+			sourceTree = "<group>";
+		};
+		539B4FC31AC415190042F6C4 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				539B4FC41AC4153F0042F6C4 /* TTHomeViewController.h */,
+				539B4FC51AC4153F0042F6C4 /* TTHomeViewController.m */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		539B4FCA1AC417ED0042F6C4 /* biz */ = {
+			isa = PBXGroup;
+			children = (
+				539B4FCB1AC4180A0042F6C4 /* sign */,
+			);
+			path = biz;
+			sourceTree = "<group>";
+		};
+		539B4FCB1AC4180A0042F6C4 /* sign */ = {
+			isa = PBXGroup;
+			children = (
+				539B4FCF1AC418BC0042F6C4 /* TTUserCenter.h */,
+				539B4FD01AC418BC0042F6C4 /* TTUserCenter.m */,
+			);
+			path = sign;
+			sourceTree = "<group>";
+		};
 		53FC6E281AC39FFF0027622A = {
 			isa = PBXGroup;
 			children = (
 				53FC6E331AC39FFF0027622A /* tentacle */,
 				53FC6E4D1AC39FFF0027622A /* tentacleTests */,
 				53FC6E321AC39FFF0027622A /* Products */,
+				8F00A1DD6B6C34669DF8006F /* Pods */,
+				413DABB4EEDC81593652A4FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +237,12 @@
 		53FC6E331AC39FFF0027622A /* tentacle */ = {
 			isa = PBXGroup;
 			children = (
+				539B4FCA1AC417ED0042F6C4 /* biz */,
+				539B4E851AC3F2310042F6C4 /* pages */,
+				539B4E821AC3F0E30042F6C4 /* config */,
 				53FC6E381AC39FFF0027622A /* AppDelegate.h */,
 				53FC6E391AC39FFF0027622A /* AppDelegate.m */,
-				53FC6E3B1AC39FFF0027622A /* ViewController.h */,
-				53FC6E3C1AC39FFF0027622A /* ViewController.m */,
-				53FC6E3E1AC39FFF0027622A /* Main.storyboard */,
 				53FC6E411AC39FFF0027622A /* Images.xcassets */,
-				53FC6E431AC39FFF0027622A /* LaunchScreen.xib */,
 				53FC6E341AC39FFF0027622A /* Supporting Files */,
 			);
 			path = tentacle;
@@ -96,6 +251,7 @@
 		53FC6E341AC39FFF0027622A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				539B4FD91AC44A810042F6C4 /* tentacle-Prefix.pch */,
 				53FC6E351AC39FFF0027622A /* Info.plist */,
 				53FC6E361AC39FFF0027622A /* main.m */,
 			);
@@ -119,6 +275,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8F00A1DD6B6C34669DF8006F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B38EA1EDAF63E00FE2BDE930 /* Pods.debug.xcconfig */,
+				9DF9D8DACA8907865183BBE6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53FC6E541AC39FFF0027622A /* Build configuration list for PBXNativeTarget "tentacle" */;
 			buildPhases = (
+				7864E5CEE8291D9A8D5CA625 /* Check Pods Manifest.lock */,
 				53FC6E2D1AC39FFF0027622A /* Sources */,
 				53FC6E2E1AC39FFF0027622A /* Frameworks */,
 				53FC6E2F1AC39FFF0027622A /* Resources */,
+				C70CCA85CA5D98754885661E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +310,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53FC6E571AC39FFF0027622A /* Build configuration list for PBXNativeTarget "tentacleTests" */;
 			buildPhases = (
+				AE5E87C801D1D3DF6A0A0A53 /* Check Pods Manifest.lock */,
 				53FC6E461AC39FFF0027622A /* Sources */,
 				53FC6E471AC39FFF0027622A /* Frameworks */,
 				53FC6E481AC39FFF0027622A /* Resources */,
+				CF71C92AA79643F866F6AE4A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +332,7 @@
 		53FC6E291AC39FFF0027622A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TT;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = SF;
 				TargetAttributes = {
@@ -199,8 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53FC6E401AC39FFF0027622A /* Main.storyboard in Resources */,
-				53FC6E451AC39FFF0027622A /* LaunchScreen.xib in Resources */,
+				539B4E841AC3F1060042F6C4 /* page_map.plist in Resources */,
 				53FC6E421AC39FFF0027622A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +383,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7864E5CEE8291D9A8D5CA625 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE5E87C801D1D3DF6A0A0A53 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C70CCA85CA5D98754885661E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF71C92AA79643F866F6AE4A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		53FC6E2D1AC39FFF0027622A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53FC6E3D1AC39FFF0027622A /* ViewController.m in Sources */,
+				539B4FC91AC416CA0042F6C4 /* TTPersonViewController.m in Sources */,
+				539B4FB61AC414490042F6C4 /* TTSessionViewController.m in Sources */,
+				539B4FC61AC4153F0042F6C4 /* TTHomeViewController.m in Sources */,
+				539B4FB01AC414170042F6C4 /* TTSettingNavigationController.m in Sources */,
+				539B4FB91AC4146C0042F6C4 /* TTFriendViewController.m in Sources */,
+				539B4FAC1AC413DD0042F6C4 /* TTSignNavigationController.m in Sources */,
+				539B4FA91AC413870042F6C4 /* TTSignViewController.m in Sources */,
+				539B4FD11AC418BC0042F6C4 /* TTUserCenter.m in Sources */,
 				53FC6E3A1AC39FFF0027622A /* AppDelegate.m in Sources */,
+				539B4FC21AC414B00042F6C4 /* TTSessionNavigationController.m in Sources */,
 				53FC6E371AC39FFF0027622A /* main.m in Sources */,
+				539B4FB31AC414350042F6C4 /* TTSettingViewController.m in Sources */,
+				539B4FBC1AC414790042F6C4 /* TTChatViewController.m in Sources */,
+				539B4FD71AC4441F0042F6C4 /* SSNRouter+Category.m in Sources */,
+				539B4FBF1AC414980042F6C4 /* TTFriendNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +486,6 @@
 			targetProxy = 53FC6E4B1AC39FFF0027622A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		53FC6E3E1AC39FFF0027622A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				53FC6E3F1AC39FFF0027622A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		53FC6E431AC39FFF0027622A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				53FC6E441AC39FFF0027622A /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		53FC6E521AC39FFF0027622A /* Debug */ = {
@@ -341,8 +566,12 @@
 		};
 		53FC6E551AC39FFF0027622A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B38EA1EDAF63E00FE2BDE930 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tentacle/tentacle-Prefix.pch";
 				INFOPLIST_FILE = tentacle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,8 +580,12 @@
 		};
 		53FC6E561AC39FFF0027622A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF9D8DACA8907865183BBE6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tentacle/tentacle-Prefix.pch";
 				INFOPLIST_FILE = tentacle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,6 +594,7 @@
 		};
 		53FC6E581AC39FFF0027622A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B38EA1EDAF63E00FE2BDE930 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -380,6 +614,7 @@
 		};
 		53FC6E591AC39FFF0027622A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF9D8DACA8907865183BBE6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -412,6 +647,7 @@
 				53FC6E561AC39FFF0027622A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53FC6E571AC39FFF0027622A /* Build configuration list for PBXNativeTarget "tentacleTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +656,7 @@
 				53FC6E591AC39FFF0027622A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

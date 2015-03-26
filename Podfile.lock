@@ -1,0 +1,58 @@
+PODS:
+  - ssn (0.0.1):
+    - ssn/base (= 0.0.1)
+    - ssn/bound (= 0.0.1)
+    - ssn/db (= 0.0.1)
+    - ssn/fetch (= 0.0.1)
+    - ssn/pinyin (= 0.0.1)
+    - ssn/quantum (= 0.0.1)
+    - ssn/rpc (= 0.0.1)
+    - ssn/ui (= 0.0.1)
+  - ssn/base (0.0.1):
+    - ssn/base/base64 (= 0.0.1)
+    - ssn/base/diff (= 0.0.1)
+    - ssn/base/log (= 0.0.1)
+  - ssn/base/base64 (0.0.1)
+  - ssn/base/diff (0.0.1)
+  - ssn/base/log (0.0.1)
+  - ssn/bound (0.0.1)
+  - ssn/db (0.0.1):
+    - ssn/db/bound (= 0.0.1)
+    - ssn/db/db (= 0.0.1)
+  - ssn/db/bound (0.0.1)
+  - ssn/db/db (0.0.1)
+  - ssn/fetch (0.0.1)
+  - ssn/pinyin (0.0.1)
+  - ssn/quantum (0.0.1)
+  - ssn/rpc (0.0.1)
+  - ssn/ui (0.0.1):
+    - ssn/ui/category (= 0.0.1)
+    - ssn/ui/kit (= 0.0.1)
+    - ssn/ui/router (= 0.0.1)
+    - ssn/ui/table (= 0.0.1)
+    - ssn/ui/toast (= 0.0.1)
+  - ssn/ui/category (0.0.1)
+  - ssn/ui/kit (0.0.1):
+    - ssn/ui/kit/ele (= 0.0.1)
+  - ssn/ui/kit/ele (0.0.1)
+  - ssn/ui/router (0.0.1)
+  - ssn/ui/table (0.0.1)
+  - ssn/ui/toast (0.0.1)
+
+DEPENDENCIES:
+  - ssn (from `git@github.com:lingminjun/ssn.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  ssn:
+    :branch: master
+    :git: git@github.com:lingminjun/ssn.git
+
+CHECKOUT OPTIONS:
+  ssn:
+    :commit: 8e376ce402c5fb09b2cf17e6b51d39cd13119d6a
+    :git: git@github.com:lingminjun/ssn.git
+
+SPEC CHECKSUMS:
+  ssn: 5fee645b730aba1128d3b4d4b71dc38ecc7f10ce
+
+COCOAPODS: 0.35.0
