@@ -14,7 +14,8 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 
-    #import "SSNRouter+Category.h"
+    #import "SSNRouter.h"
+    #import "SSNRouter+Nice.h"
 
     #import "SSNPanel.h"
 #endif
