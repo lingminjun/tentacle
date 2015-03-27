@@ -9,9 +9,12 @@
 #import "SSNRouter.h"
 #import "SSNRouter+Nice.h"
 
-@interface SSNRouter (Category)
+@interface SSNRouter (Category)<UIApplicationDelegate>
 
 //初始化
-- (void)routerInitialize;
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
+
+//外部或者内部跳转捕获
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation;
 
 @end

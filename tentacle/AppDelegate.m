@@ -18,17 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    // Override point for customization after application launch.
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
-    
     //初始化router
-    [self.ssn_router routerInitialize];
+    [self.ssn_router application:application didFinishLaunchingWithOptions:launchOptions];
     
     //设置转发代理
     self.ssn_router.delegate = self;
     
-    
+    //根据是否登录情况决定跳转
     if ([[TTUserCenter center] isLogin]) {
         [self.ssn_router open:@"app://home"]; //转到重定向中加载ui
     }
@@ -37,9 +33,11 @@
         [self.ssn_router open:@"app://login"]; //转到重定向中加载ui
     }
     
-    [self.window makeKeyAndVisible];
-    
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [self.ssn_router application:application openURL:url sourceApplication:sourceApplication annotation:annotation];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

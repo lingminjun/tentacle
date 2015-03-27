@@ -10,8 +10,7 @@
 
 @implementation SSNRouter (Category)
 
-//初始化
-- (void)routerInitialize {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     //scheme设置
     NSArray *schemes = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleURLSchemes"];
@@ -33,8 +32,24 @@
     }];
     
     //加载window
-    id<UIApplicationDelegate> appDelegate = [UIApplication sharedApplication].delegate;
+    id<UIApplicationDelegate> appDelegate = application.delegate;
+    if (appDelegate.window == nil) {
+        appDelegate.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        appDelegate.window.backgroundColor = [UIColor whiteColor];
+    }
+    
     self.window = appDelegate.window;
+    
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    
+    NSMutableDictionary *query = [NSMutableDictionary dictionary];
+    [query setValue:sourceApplication forKey:@"sourceApplication"];
+    [query setValue:annotation forKey:@"annotation"];
+    
+    return [self openURL:url query:query];
 }
 
 @end
