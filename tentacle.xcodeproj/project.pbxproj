@@ -22,6 +22,15 @@
 		539B4FC91AC416CA0042F6C4 /* TTPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 539B4FC81AC416CA0042F6C4 /* TTPersonViewController.m */; };
 		539B4FD11AC418BC0042F6C4 /* TTUserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 539B4FD01AC418BC0042F6C4 /* TTUserCenter.m */; };
 		539B4FD71AC4441F0042F6C4 /* SSNRouter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 539B4FD61AC4441F0042F6C4 /* SSNRouter+Category.m */; };
+		53CAAC441AC57F880012742A /* TTURLDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CAAC431AC57F880012742A /* TTURLDispatcher.m */; };
+		53CAAC4A1AC584700012742A /* TTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CAAC491AC584700012742A /* TTCell.m */; };
+		53CAAC4E1AC585C90012742A /* UIColor+TTUIDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CAAC4D1AC585C90012742A /* UIColor+TTUIDIC.m */; };
+		53CAAC511AC58CC10012742A /* UIImageView+TTUIDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CAAC501AC58CC10012742A /* UIImageView+TTUIDIC.m */; };
+		53CAAC541AC58D440012742A /* UIScreen+TTUIDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CAAC531AC58D440012742A /* UIScreen+TTUIDIC.m */; };
+		53CAAC581AC59F090012742A /* TTSectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CAAC571AC59F090012742A /* TTSectionCell.m */; };
+		53CAAC5B1AC5A4970012742A /* UIFont+TTUIDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CAAC5A1AC5A4970012742A /* UIFont+TTUIDIC.m */; };
+		53CAAC5E1AC5A6FD0012742A /* TTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CAAC5D1AC5A6FD0012742A /* TTLabel.m */; };
+		53CAAC621AC5AE3D0012742A /* TTSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CAAC611AC5AE3D0012742A /* TTSettingCell.m */; };
 		53FC6E371AC39FFF0027622A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FC6E361AC39FFF0027622A /* main.m */; };
 		53FC6E3A1AC39FFF0027622A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FC6E391AC39FFF0027622A /* AppDelegate.m */; };
 		53FC6E421AC39FFF0027622A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53FC6E411AC39FFF0027622A /* Images.xcassets */; };
@@ -68,6 +77,25 @@
 		539B4FD51AC4441F0042F6C4 /* SSNRouter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSNRouter+Category.h"; sourceTree = "<group>"; };
 		539B4FD61AC4441F0042F6C4 /* SSNRouter+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSNRouter+Category.m"; sourceTree = "<group>"; };
 		539B4FD91AC44A810042F6C4 /* tentacle-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "tentacle-Prefix.pch"; sourceTree = "<group>"; };
+		53CAAC421AC57F880012742A /* TTURLDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTURLDispatcher.h; sourceTree = "<group>"; };
+		53CAAC431AC57F880012742A /* TTURLDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTURLDispatcher.m; sourceTree = "<group>"; };
+		53CAAC481AC584700012742A /* TTCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCell.h; sourceTree = "<group>"; };
+		53CAAC491AC584700012742A /* TTCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCell.m; sourceTree = "<group>"; };
+		53CAAC4C1AC585C90012742A /* UIColor+TTUIDIC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TTUIDIC.h"; sourceTree = "<group>"; };
+		53CAAC4D1AC585C90012742A /* UIColor+TTUIDIC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TTUIDIC.m"; sourceTree = "<group>"; };
+		53CAAC4F1AC58CC10012742A /* UIImageView+TTUIDIC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TTUIDIC.h"; sourceTree = "<group>"; };
+		53CAAC501AC58CC10012742A /* UIImageView+TTUIDIC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TTUIDIC.m"; sourceTree = "<group>"; };
+		53CAAC521AC58D440012742A /* UIScreen+TTUIDIC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+TTUIDIC.h"; sourceTree = "<group>"; };
+		53CAAC531AC58D440012742A /* UIScreen+TTUIDIC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+TTUIDIC.m"; sourceTree = "<group>"; };
+		53CAAC551AC5982F0012742A /* TTUIDIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTUIDIC.h; sourceTree = "<group>"; };
+		53CAAC561AC59F090012742A /* TTSectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSectionCell.h; sourceTree = "<group>"; };
+		53CAAC571AC59F090012742A /* TTSectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSectionCell.m; sourceTree = "<group>"; };
+		53CAAC591AC5A4970012742A /* UIFont+TTUIDIC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+TTUIDIC.h"; sourceTree = "<group>"; };
+		53CAAC5A1AC5A4970012742A /* UIFont+TTUIDIC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+TTUIDIC.m"; sourceTree = "<group>"; };
+		53CAAC5C1AC5A6FD0012742A /* TTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLabel.h; sourceTree = "<group>"; };
+		53CAAC5D1AC5A6FD0012742A /* TTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLabel.m; sourceTree = "<group>"; };
+		53CAAC601AC5AE3D0012742A /* TTSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSettingCell.h; sourceTree = "<group>"; };
+		53CAAC611AC5AE3D0012742A /* TTSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSettingCell.m; sourceTree = "<group>"; };
 		53FC6E311AC39FFF0027622A /* tentacle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tentacle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53FC6E351AC39FFF0027622A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53FC6E361AC39FFF0027622A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -129,6 +157,8 @@
 				539B4E891AC3F2D10042F6C4 /* sign */,
 				539B4FD51AC4441F0042F6C4 /* SSNRouter+Category.h */,
 				539B4FD61AC4441F0042F6C4 /* SSNRouter+Category.m */,
+				53CAAC421AC57F880012742A /* TTURLDispatcher.h */,
+				53CAAC431AC57F880012742A /* TTURLDispatcher.m */,
 			);
 			path = pages;
 			sourceTree = "<group>";
@@ -214,6 +244,62 @@
 			path = sign;
 			sourceTree = "<group>";
 		};
+		53CAAC451AC5813A0012742A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				53CAAC4B1AC5857A0012742A /* uidic */,
+				53CAAC461AC5832F0012742A /* cells */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		53CAAC461AC5832F0012742A /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				53CAAC5F1AC5AE260012742A /* setting */,
+				53CAAC471AC5832F0012742A /* base */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		53CAAC471AC5832F0012742A /* base */ = {
+			isa = PBXGroup;
+			children = (
+				53CAAC481AC584700012742A /* TTCell.h */,
+				53CAAC491AC584700012742A /* TTCell.m */,
+				53CAAC561AC59F090012742A /* TTSectionCell.h */,
+				53CAAC571AC59F090012742A /* TTSectionCell.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		53CAAC4B1AC5857A0012742A /* uidic */ = {
+			isa = PBXGroup;
+			children = (
+				53CAAC4C1AC585C90012742A /* UIColor+TTUIDIC.h */,
+				53CAAC4D1AC585C90012742A /* UIColor+TTUIDIC.m */,
+				53CAAC4F1AC58CC10012742A /* UIImageView+TTUIDIC.h */,
+				53CAAC501AC58CC10012742A /* UIImageView+TTUIDIC.m */,
+				53CAAC521AC58D440012742A /* UIScreen+TTUIDIC.h */,
+				53CAAC531AC58D440012742A /* UIScreen+TTUIDIC.m */,
+				53CAAC551AC5982F0012742A /* TTUIDIC.h */,
+				53CAAC591AC5A4970012742A /* UIFont+TTUIDIC.h */,
+				53CAAC5A1AC5A4970012742A /* UIFont+TTUIDIC.m */,
+				53CAAC5C1AC5A6FD0012742A /* TTLabel.h */,
+				53CAAC5D1AC5A6FD0012742A /* TTLabel.m */,
+			);
+			path = uidic;
+			sourceTree = "<group>";
+		};
+		53CAAC5F1AC5AE260012742A /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				53CAAC601AC5AE3D0012742A /* TTSettingCell.h */,
+				53CAAC611AC5AE3D0012742A /* TTSettingCell.m */,
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
 		53FC6E281AC39FFF0027622A = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +323,7 @@
 		53FC6E331AC39FFF0027622A /* tentacle */ = {
 			isa = PBXGroup;
 			children = (
+				53CAAC451AC5813A0012742A /* views */,
 				539B4FCA1AC417ED0042F6C4 /* biz */,
 				539B4E851AC3F2310042F6C4 /* pages */,
 				539B4E821AC3F0E30042F6C4 /* config */,
@@ -452,19 +539,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				539B4FC91AC416CA0042F6C4 /* TTPersonViewController.m in Sources */,
+				53CAAC5B1AC5A4970012742A /* UIFont+TTUIDIC.m in Sources */,
 				539B4FB61AC414490042F6C4 /* TTSessionViewController.m in Sources */,
 				539B4FC61AC4153F0042F6C4 /* TTHomeViewController.m in Sources */,
+				53CAAC511AC58CC10012742A /* UIImageView+TTUIDIC.m in Sources */,
 				539B4FB01AC414170042F6C4 /* TTSettingNavigationController.m in Sources */,
+				53CAAC581AC59F090012742A /* TTSectionCell.m in Sources */,
 				539B4FB91AC4146C0042F6C4 /* TTFriendViewController.m in Sources */,
+				53CAAC621AC5AE3D0012742A /* TTSettingCell.m in Sources */,
 				539B4FAC1AC413DD0042F6C4 /* TTSignNavigationController.m in Sources */,
+				53CAAC4E1AC585C90012742A /* UIColor+TTUIDIC.m in Sources */,
+				53CAAC4A1AC584700012742A /* TTCell.m in Sources */,
 				539B4FA91AC413870042F6C4 /* TTSignViewController.m in Sources */,
+				53CAAC5E1AC5A6FD0012742A /* TTLabel.m in Sources */,
 				539B4FD11AC418BC0042F6C4 /* TTUserCenter.m in Sources */,
 				53FC6E3A1AC39FFF0027622A /* AppDelegate.m in Sources */,
+				53CAAC541AC58D440012742A /* UIScreen+TTUIDIC.m in Sources */,
 				539B4FC21AC414B00042F6C4 /* TTSessionNavigationController.m in Sources */,
 				53FC6E371AC39FFF0027622A /* main.m in Sources */,
 				539B4FB31AC414350042F6C4 /* TTSettingViewController.m in Sources */,
 				539B4FBC1AC414790042F6C4 /* TTChatViewController.m in Sources */,
 				539B4FD71AC4441F0042F6C4 /* SSNRouter+Category.m in Sources */,
+				53CAAC441AC57F880012742A /* TTURLDispatcher.m in Sources */,
 				539B4FBF1AC414980042F6C4 /* TTFriendNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

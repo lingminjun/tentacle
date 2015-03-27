@@ -8,16 +8,34 @@
 
 #import "TTSettingViewController.h"
 
+#import "TTSectionCell.h"
+#import "TTSettingCell.h"
+
 @interface TTSettingViewController ()
 
 @end
 
 @implementation TTSettingViewController
 
+- (id)initWithStyle:(UITableViewStyle)style
+{
+    self = [super initWithStyle:style];
+    if (self)
+    {
+        // Custom initialization
+    }
+    return self;
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"设置";
+    self.view.backgroundColor = [UIColor tt_C5];
+    
+    self.ssn_tableViewConfigurator.tableView = self.tableView;
+    [self.ssn_tableViewConfigurator.listFetchController loadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -39,5 +57,39 @@
 - (BOOL)ssn_canRespondURL:(NSURL *)url query:(NSDictionary *)query {
     return YES;
 }
+
+#pragma mark - SSNListFetchControllerDataSource
+
+- (void)ssn_configurator:(SSNTableViewConfigurator *)configurator controller:(SSNListFetchController *)controller loadDataWithOffset:(NSUInteger)offset limit:(NSUInteger)limit userInfo:(NSDictionary *)userInfo completion:(void (^)(NSArray *results, BOOL hasMore, NSDictionary *userInfo, BOOL finished))completion {
+    
+    NSMutableArray *ary = [NSMutableArray array];
+    
+    [ary addObject:[TTSectionCellModel model]];
+    
+    [ary addObject:[TTSettingCellModel modelWithTitle:@"关于"]];
+    
+    [ary addObject:[TTSectionCellModel model]];
+    
+    [ary addObject:[TTSettingCellModel modelWithTitle:@"注销"]];
+    
+    [ary addObject:[TTSectionCellModel lastModel]];
+    
+    completion(ary,NO,nil,YES);
+}
+
+- (void)ssn_configurator:(SSNTableViewConfigurator *)configurator tableView:(UITableView *)tableView didSelectModel:(TTSettingCellModel *)model atIndexPath:(NSIndexPath *)indexPath {
+//    if ([model.title isEqualToString:@"UIDic"]) {
+//        [self openRelativePath:@"../uidic" query:nil];
+//    }
+//    else if ([model.title isEqualToString:@"UILayout"]) {
+//        [self openRelativePath:@"../layout" query:nil];
+//    }
+//    else {
+//        //        tableView.editing = YES;
+//        NSIndexPath *nextPath = [NSIndexPath indexPathForRow:indexPath.row+1 inSection:indexPath.section];
+//        [self.ssn_tableViewConfigurator.listFetchController deleteDatasAtIndexPaths:@[indexPath,nextPath]];
+//    }
+}
+
 
 @end
