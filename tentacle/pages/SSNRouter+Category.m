@@ -8,6 +8,8 @@
 
 #import "SSNRouter+Category.h"
 
+#import "TTWindow.h"
+
 @implementation SSNRouter (Category)
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -34,7 +36,7 @@
     //加载window
     id<UIApplicationDelegate> appDelegate = application.delegate;
     if (appDelegate.window == nil) {
-        appDelegate.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        appDelegate.window = [[TTWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
         appDelegate.window.backgroundColor = [UIColor whiteColor];
     }
     

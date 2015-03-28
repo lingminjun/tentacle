@@ -31,6 +31,8 @@
 		53CAAC5B1AC5A4970012742A /* UIFont+TTUIDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CAAC5A1AC5A4970012742A /* UIFont+TTUIDIC.m */; };
 		53CAAC5E1AC5A6FD0012742A /* TTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CAAC5D1AC5A6FD0012742A /* TTLabel.m */; };
 		53CAAC621AC5AE3D0012742A /* TTSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CAAC611AC5AE3D0012742A /* TTSettingCell.m */; };
+		53CAACE71AC65A6B0012742A /* TTWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CAACE61AC65A6B0012742A /* TTWindow.m */; };
+		53CAACEA1AC664500012742A /* UITextField+TTUIDIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CAACE91AC664500012742A /* UITextField+TTUIDIC.m */; };
 		53FC6E371AC39FFF0027622A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FC6E361AC39FFF0027622A /* main.m */; };
 		53FC6E3A1AC39FFF0027622A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FC6E391AC39FFF0027622A /* AppDelegate.m */; };
 		53FC6E421AC39FFF0027622A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53FC6E411AC39FFF0027622A /* Images.xcassets */; };
@@ -96,6 +98,10 @@
 		53CAAC5D1AC5A6FD0012742A /* TTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLabel.m; sourceTree = "<group>"; };
 		53CAAC601AC5AE3D0012742A /* TTSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSettingCell.h; sourceTree = "<group>"; };
 		53CAAC611AC5AE3D0012742A /* TTSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSettingCell.m; sourceTree = "<group>"; };
+		53CAACE51AC65A6B0012742A /* TTWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTWindow.h; sourceTree = "<group>"; };
+		53CAACE61AC65A6B0012742A /* TTWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTWindow.m; sourceTree = "<group>"; };
+		53CAACE81AC664500012742A /* UITextField+TTUIDIC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TTUIDIC.h"; sourceTree = "<group>"; };
+		53CAACE91AC664500012742A /* UITextField+TTUIDIC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TTUIDIC.m"; sourceTree = "<group>"; };
 		53FC6E311AC39FFF0027622A /* tentacle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tentacle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53FC6E351AC39FFF0027622A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53FC6E361AC39FFF0027622A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -247,6 +253,7 @@
 		53CAAC451AC5813A0012742A /* views */ = {
 			isa = PBXGroup;
 			children = (
+				53CAACE41AC65A490012742A /* window */,
 				53CAAC4B1AC5857A0012742A /* uidic */,
 				53CAAC461AC5832F0012742A /* cells */,
 			);
@@ -287,6 +294,8 @@
 				53CAAC5A1AC5A4970012742A /* UIFont+TTUIDIC.m */,
 				53CAAC5C1AC5A6FD0012742A /* TTLabel.h */,
 				53CAAC5D1AC5A6FD0012742A /* TTLabel.m */,
+				53CAACE81AC664500012742A /* UITextField+TTUIDIC.h */,
+				53CAACE91AC664500012742A /* UITextField+TTUIDIC.m */,
 			);
 			path = uidic;
 			sourceTree = "<group>";
@@ -298,6 +307,15 @@
 				53CAAC611AC5AE3D0012742A /* TTSettingCell.m */,
 			);
 			path = setting;
+			sourceTree = "<group>";
+		};
+		53CAACE41AC65A490012742A /* window */ = {
+			isa = PBXGroup;
+			children = (
+				53CAACE51AC65A6B0012742A /* TTWindow.h */,
+				53CAACE61AC65A6B0012742A /* TTWindow.m */,
+			);
+			path = window;
 			sourceTree = "<group>";
 		};
 		53FC6E281AC39FFF0027622A = {
@@ -540,6 +558,7 @@
 			files = (
 				539B4FC91AC416CA0042F6C4 /* TTPersonViewController.m in Sources */,
 				53CAAC5B1AC5A4970012742A /* UIFont+TTUIDIC.m in Sources */,
+				53CAACE71AC65A6B0012742A /* TTWindow.m in Sources */,
 				539B4FB61AC414490042F6C4 /* TTSessionViewController.m in Sources */,
 				539B4FC61AC4153F0042F6C4 /* TTHomeViewController.m in Sources */,
 				53CAAC511AC58CC10012742A /* UIImageView+TTUIDIC.m in Sources */,
@@ -553,6 +572,7 @@
 				539B4FA91AC413870042F6C4 /* TTSignViewController.m in Sources */,
 				53CAAC5E1AC5A6FD0012742A /* TTLabel.m in Sources */,
 				539B4FD11AC418BC0042F6C4 /* TTUserCenter.m in Sources */,
+				53CAACEA1AC664500012742A /* UITextField+TTUIDIC.m in Sources */,
 				53FC6E3A1AC39FFF0027622A /* AppDelegate.m in Sources */,
 				53CAAC541AC58D440012742A /* UIScreen+TTUIDIC.m in Sources */,
 				539B4FC21AC414B00042F6C4 /* TTSessionNavigationController.m in Sources */,

@@ -10,7 +10,7 @@
 
 @implementation UIScreen (TTUIDIC)
 
-+ (NSUInteger)tt_screen_width {
++ (NSUInteger)tt_screen_main_width {
     return [UIScreen mainScreen].bounds.size.width;
 }
 

@@ -78,9 +78,9 @@
 }
 
 - (void)ssn_configurator:(SSNTableViewConfigurator *)configurator tableView:(UITableView *)tableView didSelectModel:(TTSettingCellModel *)model atIndexPath:(NSIndexPath *)indexPath {
-//    if ([model.title isEqualToString:@"UIDic"]) {
-//        [self openRelativePath:@"../uidic" query:nil];
-//    }
+    if ([model.title isEqualToString:@"注销"]) {
+        [self ssn_open:@"app://login"];
+    }
 //    else if ([model.title isEqualToString:@"UILayout"]) {
 //        [self openRelativePath:@"../layout" query:nil];
 //    }

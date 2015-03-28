@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+#define tt_screen_width [UIScreen tt_screen_main_width]
 #define tt_edge UIEdgeInsetsMake(10, 10, 10, 10)
 
 @interface UIScreen (TTUIDIC)
 
-+ (NSUInteger)tt_screen_width;//屏幕宽度
+
++ (NSUInteger)tt_screen_main_width;//屏幕宽度
 
 @end
