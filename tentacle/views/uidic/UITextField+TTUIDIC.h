@@ -12,4 +12,6 @@
 
 + (instancetype)tt_I1;//输入框，带边线
 
++ (instancetype)tt_I2;//密码输入框，带边线
+
 @end

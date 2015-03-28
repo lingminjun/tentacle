@@ -35,4 +35,20 @@
 + (UIColor *)tt_C6 {
     return [self ssn_colorWithHex:0xF6F6F6];
 }
+
++ (UIColor *)tt_C7 {
+    return [self ssn_colorWithHex:0xE8540C];
+}
+
++ (UIColor *)tt_C8 {
+    return [self ssn_colorWithHex:0xE14A00];
+}
+
++ (UIColor *)tt_C9 {
+    return [self ssn_colorWithHex:0xCCCCCC];
+}
+//
+//#define COLOR_BUTTON_DISABLE        HEX_COLOR(0xcccccc)
+//#define COLOR_NAV_BUTTON_DISABLE    HEX_COLOR(0x6f7179)
+
 @end

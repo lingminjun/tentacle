@@ -22,4 +22,10 @@
 
 + (UIColor *)tt_C6;//选中高亮背景
 
++ (UIColor *)tt_C7;//按钮背景
+
++ (UIColor *)tt_C8;//按钮选中
+
++ (UIColor *)tt_C9;//按钮disabled
+
 @end

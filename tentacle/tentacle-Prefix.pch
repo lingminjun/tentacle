@@ -31,4 +31,6 @@
     //ui字典
     #import "TTUIDIC.h"
 
+    #import "UIViewController+TTUtil.h"
+
 #endif

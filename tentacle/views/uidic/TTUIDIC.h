@@ -14,5 +14,7 @@
 #import "UIScreen+TTUIDIC.h"
 #import "UIFont+TTUIDIC.h"
 #import "TTLabel.h"
+#import "UIButton+TTUIDIC.h"
+#import "UITextField+TTUIDIC.h"
 
 #endif
