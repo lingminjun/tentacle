@@ -6,6 +6,18 @@
 // project.
 
 
+// EaseMob
+#define COCOAPODS_POD_AVAILABLE_EaseMob
+#define COCOAPODS_VERSION_MAJOR_EaseMob 2
+#define COCOAPODS_VERSION_MINOR_EaseMob 1
+#define COCOAPODS_VERSION_PATCH_EaseMob 4
+
+// EaseMob/ChatService
+#define COCOAPODS_POD_AVAILABLE_EaseMob_ChatService
+#define COCOAPODS_VERSION_MAJOR_EaseMob_ChatService 2
+#define COCOAPODS_VERSION_MINOR_EaseMob_ChatService 1
+#define COCOAPODS_VERSION_PATCH_EaseMob_ChatService 4
+
 // ssn
 #define COCOAPODS_POD_AVAILABLE_ssn
 #define COCOAPODS_VERSION_MAJOR_ssn 0

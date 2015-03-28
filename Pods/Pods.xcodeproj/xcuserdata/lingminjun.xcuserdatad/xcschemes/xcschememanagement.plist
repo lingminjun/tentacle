@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-EaseMob.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ssn.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4CD47BD83C422812FB060407</key>
+		<key>118B195EC31428BECB0ABDC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F01E2E9BF72B4B2CABF73AD8</key>
+		<key>22DAE953A86A661728C5143A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFBA5ECB539B37F56BD66C74</key>
 		<dict>
 			<key>primary</key>
 			<true/>

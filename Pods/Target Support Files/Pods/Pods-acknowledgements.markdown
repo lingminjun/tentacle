@@ -1,6 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## EaseMob
+
+©2014 EaseMob Inc.
+
+
 ## ssn
 
 lingminjun copyright

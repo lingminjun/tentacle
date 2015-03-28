@@ -1,4 +1,7 @@
 PODS:
+  - EaseMob (2.1.4):
+    - EaseMob/ChatService (= 2.1.4)
+  - EaseMob/ChatService (2.1.4)
   - ssn (0.0.1):
     - ssn/base (= 0.0.1)
     - ssn/bound (= 0.0.1)
@@ -40,19 +43,27 @@ PODS:
   - ssn/ui/toast (0.0.1)
 
 DEPENDENCIES:
+  - EaseMob (from `git@github.com:jcccn/EaseMob-SDK-iOS.git`, branch `master`)
   - ssn (from `git@github.com:lingminjun/ssn.git`, branch `master`)
 
 EXTERNAL SOURCES:
+  EaseMob:
+    :branch: master
+    :git: git@github.com:jcccn/EaseMob-SDK-iOS.git
   ssn:
     :branch: master
     :git: git@github.com:lingminjun/ssn.git
 
 CHECKOUT OPTIONS:
+  EaseMob:
+    :commit: b961ce38fe67457529266abbe26f3c7ce4e69aad
+    :git: git@github.com:jcccn/EaseMob-SDK-iOS.git
   ssn:
     :commit: ca76b2c2d1266d386654ff88dcc42b28a06a0f3f
     :git: git@github.com:lingminjun/ssn.git
 
 SPEC CHECKSUMS:
+  EaseMob: dabc268579ffee3351c72f605f5d8b03b2f8ea8d
   ssn: 5fee645b730aba1128d3b4d4b71dc38ecc7f10ce
 
 COCOAPODS: 0.35.0

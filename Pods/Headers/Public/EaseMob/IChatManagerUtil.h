@@ -1,0 +1,1 @@
+../../../EaseMob/EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerUtil.h

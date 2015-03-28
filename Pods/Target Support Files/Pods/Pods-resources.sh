@@ -47,7 +47,8 @@ install_resource()
       ;;
   esac
 }
-          install_resource "ssn/ssn/ssn/pinyin/unicode_to_pinyin.txt"
+          install_resource "EaseMob/EaseMobSDK/resources/EaseMob.bundle"
+                    install_resource "ssn/ssn/ssn/pinyin/unicode_to_pinyin.txt"
                     install_resource "ssn/ssn/ssn/ui/table/Resources/ssn_pull_refresh_black_arrow.png"
                     install_resource "ssn/ssn/ssn/ui/table/Resources/ssn_pull_refresh_black_arrow@2x.png"
                     install_resource "ssn/ssn/ssn/ui/table/Resources/ssn_pull_refresh_black_arrow@3x.png"

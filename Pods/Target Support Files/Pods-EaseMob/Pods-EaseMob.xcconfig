@@ -1,0 +1,2 @@
+PODS_EASEMOB_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/EaseMob/EaseMobSDK/lib"
+PODS_EASEMOB_OTHER_LDFLAGS = -l"EaseMobClientSDKLite" -l"ObjC" -l"iconv" -l"resolv" -l"sqlite3" -l"stdc++" -l"xml2" -l"z" -framework "AddressBook" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreLocation" -framework "Foundation" -framework "ImageIO" -framework "MapKit" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
