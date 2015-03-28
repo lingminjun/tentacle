@@ -49,7 +49,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ssn:
-    :commit: 8e376ce402c5fb09b2cf17e6b51d39cd13119d6a
+    :commit: ca76b2c2d1266d386654ff88dcc42b28a06a0f3f
     :git: git@github.com:lingminjun/ssn.git
 
 SPEC CHECKSUMS:
